@@ -1,0 +1,12 @@
+server:
+  name: go-ms-profile
+  port: 8080
+
+mongoDb:
+  uri: 'mongodb+srv://aunjai-dev:D8A9Gn4udGH4iXXZ@cluster0.vw76d.mongodb.net'
+  database: aunjai-dev
+  maxpool: 2
+  minpool: 1
+
+redis:
+  addr: localhost:6379
